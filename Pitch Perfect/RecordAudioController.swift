@@ -26,6 +26,7 @@ class RecordAudioController: UIViewController, AVAudioRecorderDelegate {
     }
     
     override func viewWillAppear(animated: Bool) {
+        startButton.enabled = true
         stopButton.hidden = true
         recordingInProgressLabel.hidden = true
     }
