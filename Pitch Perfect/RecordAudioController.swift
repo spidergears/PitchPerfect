@@ -47,6 +47,7 @@ class RecordAudioController: UIViewController, AVAudioRecorderDelegate {
         let filePathUrl = NSURL.fileURLWithPathComponents(pathArray)
         var session = AVAudioSession.sharedInstance()
         session.setCategory(AVAudioSessionCategoryPlayAndRecord, error: nil)
+        session.setInputGain(1.0, error: nil)
         audioRecorder = AVAudioRecorder(URL: filePathUrl, settings: nil, error: nil)
         audioRecorder.delegate = self
         audioRecorder.meteringEnabled = true

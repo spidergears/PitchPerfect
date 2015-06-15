@@ -140,7 +140,6 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.5" height="0.5"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="5hI-vw-SyS"/>
                                     <constraint firstAttribute="width" constant="100" id="gmP-uL-HVb"/>
                                     <constraint firstAttribute="height" constant="100" id="jav-QG-ly8"/>
                                 </constraints>
@@ -149,14 +148,12 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="5hI-vw-SyS"/>
                                         <exclude reference="gmP-uL-HVb"/>
                                         <exclude reference="jav-QG-ly8"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="5hI-vw-SyS"/>
                                         <include reference="gmP-uL-HVb"/>
                                         <include reference="jav-QG-ly8"/>
                                     </mask>
